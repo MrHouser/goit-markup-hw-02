@@ -1,0 +1,208 @@
+:root {
+  --accent-color: #2196f3;
+  --main-color: #757575;
+  --secondary-color: #212121;
+  --main-white-color: #ffffff;
+  --secondary-white-color: rgba(255, 255, 255, 0.6);
+  --dark-background-color: #2f303a;
+  --light-background-color: #f5f4fa;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  background-color: var(--main-white-color);
+  color: var(--main-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* logo */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  color: var(--secondary-color);
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+/* navigation*/
+
+.nav-link {
+  font-weight: 500;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.address-link:hover,
+.nav-link.address-link:focus,
+.adress:hover,
+.adress:focus,
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+
+.nav-link.current {
+  color: var(--accent-color);
+}
+
+.nav-link.address-link {
+  font-style: normal;
+  color: var(--main-color);
+}
+
+/* hero */
+.hero {
+  background-color: var(--dark-background-color);
+}
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-white-color);
+}
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: var(--main-white-color);
+}
+
+/* our advantages */
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.advantages-title {
+  font-weight: 700;
+  font-size: inherit;
+  line-height: 1.143;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+
+.advantages-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+}
+
+/* what we do */
+
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+/* our team */
+.team {
+  background-color: var(--light-background-color);
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.667;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.employee-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  color: var(--secondary-color);
+}
+
+.employee-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+}
+
+/* footer */
+
+.footer {
+  background-color: var(--dark-background-color);
+}
+
+.logo.footer-logo {
+  color: var(--main-white-color);
+}
+
+.adress {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.714;
+  color: var(--main-white-color);
+}
+
+.footer-link {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.715;
+  color: var(--secondary-white-color);
+}
+
+/* ====portfolio==== */
+/* buttons */
+
+.gallery-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  color: var(--secondary-color);
+  background-color: var(--light-background-color);
+}
+
+.gallery-button:hover,
+.gallery-button:focus {
+  color: var(--main-white-color);
+  background-color: var(--accent-color);
+}
+
+/* gallery */
+.gallery-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-color);
+}
+
+.gallery-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+}
